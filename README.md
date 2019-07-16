@@ -13,7 +13,7 @@ docker run -itd --name watermarkimg -p 80:80 -v /opt/img:/app/upload baiyuetribe
 说明：
 
 - 宿主机挂载目录：`/opt/img`
-- 默认端口为`80`，如需替换其它端口，请修改`80:80`为`任意端口：80`，然后再次执行 即可。
+- 默认端口为`80`，如需替换其它端口，请修改`80:80`为`XXX：80`，然后再次执行 即可。
 
 - 删除:`docker rm -f watermarkimg`
 
